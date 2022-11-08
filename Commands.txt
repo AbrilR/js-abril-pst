@@ -1,0 +1,34 @@
+command prompt commands/CLI commands
+cd - change folder/directory
+cd ../ - goes back out folder/directory
+cd ~ - goes to root folder/directory takes me to the start if I am lost
+ls - list out items in folder/directory
+touch fileName.exe - creates a file named fileName.exe
+rm fileName.exe - deletes fileName.exe
+mkdir folderName - creates a folder named folderName
+rmdir folderName - deletes empty folder
+
+
+github commands
+git clone ssh-key - clones ssh repository
+git add fileName - adds fileName to commit
+git add . - adds all files and folders in current directory to commit
+git commit -m "your commit msg here" - savepoint with a msg
+git push origin branchname - uploads current commit to the branch/github
+git pull origin branchname - downloads uploaded commit to local repository
+git pull - downloads all commits and all branches to local repository
+git status - gives status
+
+what i did
+I cloned the repository using git clone ssh-key
+I added files using the touch and mkdir commands 
+I added them to commit with git add .
+I commited the files with git commit -m "your commit msg here"
+I uploaded with git push origin branchname
+
+mobile friendly github commands
+git branches - looks at all local branches
+git checkout branchname - changes the branches
+git checkout -b branchname - makes a new branch named branchname
+git merge branchname - merges with featured branch
+git branch -d branchame - deletes branchname locally
