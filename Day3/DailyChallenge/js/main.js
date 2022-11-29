@@ -1,13 +1,13 @@
 function myFunction() {
-    let text;
 
-    let person = prompt("Please enter your name:");
+  let text;
+  let person = prompt("Please enter your name:");
 
-    if (person == null || person == "") {
+  if (person == null || person == "") {
       text = "User cancelled the prompt.";
-    } else {
+  } else {
       text = "Hello " + person + "! How are you today?";
-    }
-
-    document.getElementById("demo").innerHTML = text;
   }
+
+  document.getElementById("demo").innerHTML = text;
+}
