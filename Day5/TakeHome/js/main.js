@@ -8,7 +8,7 @@ function validate (input){
       alert('Your password is acceptable')
     }
     else {
-      alert('Your password is unnacceptable')
+      alert('Your password is unnacceptable because it does not meet the requirements')
       validate()
     }
     return result
