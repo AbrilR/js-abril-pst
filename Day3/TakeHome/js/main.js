@@ -6,30 +6,20 @@ function welcomeTheUser() {
     alert("Welcome "+ lastName);
 }
 
+// birthday bonus
+function bday() {
 
+  let birthday = prompt("When is your birthday?");
 
-function myFunction() {
-
-  let text;
-  let birthday = prompt("Please enter your birthday:");
-
-  if (birthday == null || birthday == "") {
-      text = "User cancelled the prompt.";
+  if( birthday == null || birthday == "") {
+    alert("You forgot to type in your birthday");
+    bday();
   } else {
-      text = "Your birthday is " + birthday
+
+    if (confirm("Are you sure?") == true) {
+      alert("Your birthday is: " + birthday);
+    } else {
+      bday();
+    }
   }
-
-  document.getElementById("demo").innerHTML = text;
 }
-
-
-
-let YOB = prompt('What is your Year of Birth?', 1900);
-
-const currentYear = new Date().getFullYear();
-
-if(YOB === null) {
-    YOB = ''
-}
-
-alert("`You are ＄{currentYear - YOB} years old!`" + YOB); // You are 100 years old!
